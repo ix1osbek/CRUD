@@ -14,7 +14,7 @@ app.use(productRouter)
 
 
 
-const PORT = process.env.PORT || 7654
+const PORT = process.env.PORT
 app.listen(PORT, () => {
     console.log(`server is running at ${PORT}`);
 
